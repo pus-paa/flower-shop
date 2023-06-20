@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="#">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+      </nav>
+    </header>
+    <div class="cart-container">
+      <ul class="cart-items">
+        <li>
+          <img
+            src="https://www.thespruce.com/thmb/7743oM-1ZLXZ5mtosLC4dA6W00c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/freesia-flowers-1315761-hero-0e30585da85d4c0bacae0e1ad3e1516e.jpg"
+            alt="Product 1"
+          />
+          <div class="product-details">
+            <h2>Product 1</h2>
+            <p>Description of Product 1</p>
+            <span class="price">$10.00</span>
+          </div>
+          <div class="quantity">
+            <input type="number" value="1" />
+          </div>
+          <div class="remove">
+            <button>Remove</button>
+          </div>
+        </li>
+        <li>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Dahlia_x_hybrida.jpg/1024px-Dahlia_x_hybrida.jpg"
+            alt="Product 2"
+          />
+          <div class="product-details">
+            <h2>Product 2</h2>
+            <p>Description of Product 2</p>
+            <span class="price">$20.00</span>
+          </div>
+          <div class="quantity">
+            <input type="number" value="1" />
+          </div>
+          <div class="remove">
+            <button>Remove</button>
+          </div>
+        </li>
+      </ul>
+      <div class="total">
+        <h2>Total</h2>
+        <span class="amount">$30.00</span>
+      </div>
+      <div class="checkout">
+        <button>Checkout</button>
+      </div>
+    </div>
+  </body>
+</html>
